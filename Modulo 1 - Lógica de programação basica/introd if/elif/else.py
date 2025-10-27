@@ -10,12 +10,22 @@
 # else:
 #     print('voce nao digitou nem entrar nem sair.')
 
-condicao = False
+condicao1 = False
+condicao2 = True
+condicao3 = False
+condicao4 = False
 
-if condicao:
-    print('este e o codigo do if')
+if condicao1:
+    print('Codigo para condicao 1')
+    print('Codigo para condicao 1')
+elif condicao2:
+    print('codigo para condicao 2')
+elif condicao3:
+    print('codigo para condicao 3')
+elif condicao4:
+    print('codigo para condicao 4')
 else:
-    print('')
+    print('Nenhuma condicao foi satisfeita')
 
 print('Fora do bloco')
 
